@@ -8,7 +8,9 @@
     "dev": "vite",
     "build": "tsc --noEmit && vite build",
     "preview": "vite preview",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "typecheck:test": "tsc --noEmit -p tsconfig.test.json",
+    "test:cache": "bash scripts/run-cache-tests.sh"
   },
   "dependencies": {
     "react": "^18.3.1",

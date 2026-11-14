@@ -32,6 +32,7 @@ classes/
 # ===== 包管理器 / 构建缓存 =====
 .npm/
 .cache/
+.cache-test-build/
 .parcel-cache/
 .vite/
 .turbo/
